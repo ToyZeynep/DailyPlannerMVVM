@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		20BE5F67B13D2BADD000105B /* Pods_DailyPlannerMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9012E9D75BBD38E0D9106A /* Pods_DailyPlannerMVVM.framework */; };
+		229E874427D1E836003DE7A0 /* PlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E874327D1E836003DE7A0 /* PlanListView.swift */; };
+		229E874627D1E848003DE7A0 /* PlanListViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E874527D1E848003DE7A0 /* PlanListViewExt.swift */; };
+		229E874827D1E85B003DE7A0 /* PlanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E874727D1E85B003DE7A0 /* PlanListViewController.swift */; };
+		229E874A27D1E887003DE7A0 /* PlanListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E874927D1E887003DE7A0 /* PlanListViewModel.swift */; };
+		229E874C27D1E899003DE7A0 /* PlanListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E874B27D1E899003DE7A0 /* PlanListViewModelImpl.swift */; };
+		229E874E27D1E8CC003DE7A0 /* PlanListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E874D27D1E8CC003DE7A0 /* PlanListCell.swift */; };
+		229E875027D1E8DC003DE7A0 /* PlanListCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E874F27D1E8DC003DE7A0 /* PlanListCellExt.swift */; };
+		229E875327D1F135003DE7A0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E875227D1F135003DE7A0 /* Model.swift */; };
+		229E875627D1F481003DE7A0 /* PlanListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E875527D1F481003DE7A0 /* PlanListUseCase.swift */; };
+		229E875927D1FF00003DE7A0 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E875827D1FF00003DE7A0 /* RealmHelper.swift */; };
 		22E84DA527D1372100E49D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E84DA427D1372100E49D62 /* AppDelegate.swift */; };
 		22E84DA727D1372100E49D62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E84DA627D1372100E49D62 /* SceneDelegate.swift */; };
 		22E84DA927D1372100E49D62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E84DA827D1372100E49D62 /* ViewController.swift */; };
-		22E84DAC27D1372100E49D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E84DAA27D1372100E49D62 /* Main.storyboard */; };
 		22E84DAE27D1372200E49D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E84DAD27D1372200E49D62 /* Assets.xcassets */; };
-		22E84DB127D1372200E49D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E84DAF27D1372200E49D62 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229E874327D1E836003DE7A0 /* PlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListView.swift; sourceTree = "<group>"; };
+		229E874527D1E848003DE7A0 /* PlanListViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewExt.swift; sourceTree = "<group>"; };
+		229E874727D1E85B003DE7A0 /* PlanListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewController.swift; sourceTree = "<group>"; };
+		229E874927D1E887003DE7A0 /* PlanListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewModel.swift; sourceTree = "<group>"; };
+		229E874B27D1E899003DE7A0 /* PlanListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewModelImpl.swift; sourceTree = "<group>"; };
+		229E874D27D1E8CC003DE7A0 /* PlanListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListCell.swift; sourceTree = "<group>"; };
+		229E874F27D1E8DC003DE7A0 /* PlanListCellExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListCellExt.swift; sourceTree = "<group>"; };
+		229E875227D1F135003DE7A0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		229E875527D1F481003DE7A0 /* PlanListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListUseCase.swift; sourceTree = "<group>"; };
+		229E875827D1FF00003DE7A0 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		22E84DA127D1372100E49D62 /* DailyPlannerMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlannerMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E84DA427D1372100E49D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22E84DA627D1372100E49D62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22E84DA827D1372100E49D62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22E84DAB27D1372100E49D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22E84DAD27D1372200E49D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22E84DB027D1372200E49D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22E84DB227D1372200E49D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		404000E95A88737B83AA3B4F /* Pods-DailyPlannerMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlannerMVVM.debug.xcconfig"; path = "Target Support Files/Pods-DailyPlannerMVVM/Pods-DailyPlannerMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		C01C8CBC289E67B4B09B3894 /* Pods-DailyPlannerMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlannerMVVM.release.xcconfig"; path = "Target Support Files/Pods-DailyPlannerMVVM/Pods-DailyPlannerMVVM.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,6 +58,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229E874227D1E7D9003DE7A0 /* PlanList */ = {
+			isa = PBXGroup;
+			children = (
+				229E874327D1E836003DE7A0 /* PlanListView.swift */,
+				229E874527D1E848003DE7A0 /* PlanListViewExt.swift */,
+				229E874727D1E85B003DE7A0 /* PlanListViewController.swift */,
+				229E874927D1E887003DE7A0 /* PlanListViewModel.swift */,
+				229E874B27D1E899003DE7A0 /* PlanListViewModelImpl.swift */,
+				229E874D27D1E8CC003DE7A0 /* PlanListCell.swift */,
+				229E874F27D1E8DC003DE7A0 /* PlanListCellExt.swift */,
+			);
+			path = PlanList;
+			sourceTree = "<group>";
+		};
+		229E875127D1F11F003DE7A0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				229E875227D1F135003DE7A0 /* Model.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		229E875427D1F466003DE7A0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				229E875527D1F481003DE7A0 /* PlanListUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		229E875727D1FEE6003DE7A0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				229E875827D1FF00003DE7A0 /* RealmHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		229E875A27D21513003DE7A0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				229E874227D1E7D9003DE7A0 /* PlanList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		22E84D9827D1372100E49D62 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +125,14 @@
 		22E84DA327D1372100E49D62 /* DailyPlannerMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				229E875A27D21513003DE7A0 /* Screens */,
+				229E875727D1FEE6003DE7A0 /* Util */,
+				229E875427D1F466003DE7A0 /* Domain */,
+				229E875127D1F11F003DE7A0 /* Data */,
 				22E84DA427D1372100E49D62 /* AppDelegate.swift */,
 				22E84DA627D1372100E49D62 /* SceneDelegate.swift */,
 				22E84DA827D1372100E49D62 /* ViewController.swift */,
-				22E84DAA27D1372100E49D62 /* Main.storyboard */,
 				22E84DAD27D1372200E49D62 /* Assets.xcassets */,
-				22E84DAF27D1372200E49D62 /* LaunchScreen.storyboard */,
 				22E84DB227D1372200E49D62 /* Info.plist */,
 			);
 			path = DailyPlannerMVVM;
@@ -88,7 +152,6 @@
 				404000E95A88737B83AA3B4F /* Pods-DailyPlannerMVVM.debug.xcconfig */,
 				C01C8CBC289E67B4B09B3894 /* Pods-DailyPlannerMVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,9 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E84DB127D1372200E49D62 /* LaunchScreen.storyboard in Resources */,
 				22E84DAE27D1372200E49D62 /* Assets.xcassets in Resources */,
-				22E84DAC27D1372100E49D62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,32 +268,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229E875627D1F481003DE7A0 /* PlanListUseCase.swift in Sources */,
 				22E84DA927D1372100E49D62 /* ViewController.swift in Sources */,
+				229E874C27D1E899003DE7A0 /* PlanListViewModelImpl.swift in Sources */,
+				229E874A27D1E887003DE7A0 /* PlanListViewModel.swift in Sources */,
+				229E874627D1E848003DE7A0 /* PlanListViewExt.swift in Sources */,
+				229E874427D1E836003DE7A0 /* PlanListView.swift in Sources */,
+				229E874E27D1E8CC003DE7A0 /* PlanListCell.swift in Sources */,
+				229E875027D1E8DC003DE7A0 /* PlanListCellExt.swift in Sources */,
 				22E84DA527D1372100E49D62 /* AppDelegate.swift in Sources */,
+				229E875327D1F135003DE7A0 /* Model.swift in Sources */,
 				22E84DA727D1372100E49D62 /* SceneDelegate.swift in Sources */,
+				229E874827D1E85B003DE7A0 /* PlanListViewController.swift in Sources */,
+				229E875927D1FF00003DE7A0 /* RealmHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		22E84DAA27D1372100E49D62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22E84DAB27D1372100E49D62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		22E84DAF27D1372200E49D62 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22E84DB027D1372200E49D62 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22E84DB327D1372200E49D62 /* Debug */ = {
@@ -364,7 +416,6 @@
 				INFOPLIST_FILE = DailyPlannerMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,7 +444,6 @@
 				INFOPLIST_FILE = DailyPlannerMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
